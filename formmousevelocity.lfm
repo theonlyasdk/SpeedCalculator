@@ -1,0 +1,49 @@
+object MouseVelocityForm: TMouseVelocityForm
+  Left = 290
+  Height = 136
+  Top = 112
+  Width = 366
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Easter Egg: Mouse Velocity'
+  ClientHeight = 136
+  ClientWidth = 366
+  Position = poOwnerFormCenter
+  LCLVersion = '3.4.0.0'
+  object LblTitle: TLabel
+    Left = 24
+    Height = 32
+    Top = 9
+    Width = 320
+    Caption = 'You''ve found an easter egg!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object BtnClose: TButton
+    Left = 150
+    Height = 25
+    Top = 103
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Close'
+    ModalResult = 11
+    TabOrder = 0
+  end
+  object LblVelocity: TLabel
+    Left = 24
+    Height = 45
+    Top = 47
+    Width = 134
+    Caption = 'Your mouse is moving at:'#13#10'X: ... px/s'#13#10'Y: ... px/s'
+  end
+  object TickTimer: TTimer
+    Interval = 50
+    OnTimer = TimerTick
+    Left = 59
+    Top = 70
+  end
+end

@@ -1,0 +1,66 @@
+object AboutForm: TAboutForm
+  Left = 290
+  Height = 232
+  Top = 112
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'About Speed Calculator'
+  ClientHeight = 232
+  ClientWidth = 320
+  Position = poOwnerFormCenter
+  ShowHint = True
+  LCLVersion = '3.4.0.0'
+  object LblTitle: TLabel
+    Left = 24
+    Height = 47
+    Top = 9
+    Width = 268
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Speed Calculator'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -35
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = LblTitleClick
+  end
+  object LblEdit: TLabel
+    Left = 40
+    Height = 15
+    Top = 63
+    Width = 241
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Calculate speed from given time and distance'
+  end
+  object LblCopyright: TLabel
+    Left = 112
+    Height = 15
+    Top = 207
+    Width = 108
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '(c) theonlyasdk 2024'
+  end
+  object LicenseMemo: TMemo
+    Left = 8
+    Height = 108
+    Hint = 'The MIT License'
+    Top = 90
+    Width = 304
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'Copyright (c) 2024 theonlyasdk'
+      ''
+      'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:'
+      ''
+      'The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.'
+      ''
+      'THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+end

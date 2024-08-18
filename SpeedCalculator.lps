@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units>
+      <Unit>
+        <Filename Value="SpeedCalculator.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <CursorPos X="20" Y="9"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainUnit"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="56"/>
+        <CursorPos X="5" Y="61"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="formabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormAbout"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="formmousevelocity.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MouseVelocityForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormMouseVelocity"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="26" Y="36"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="9" Column="30"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="56" Column="8" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="89" Column="108" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="88" Column="27" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="104" Column="16" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="95" Column="24" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="94" Column="24" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="95" Column="24" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="110" Column="16" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="105" Column="5" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="77" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="81" Column="34" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="114" Column="22" TopLine="95"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="6"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="25" Column="22" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="24" Column="22" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="58" Column="10" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="57" Column="10" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="51" Column="8" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="52" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="15" Column="28" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="19" Column="56" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="37" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="24" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="37" Column="24" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="40" Column="34" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="formmousevelocity.pas"/>
+        <Caret Line="50" Column="75" TopLine="36"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
